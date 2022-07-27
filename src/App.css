@@ -1,3 +1,24 @@
 .app_page{
   display: flex;
 }
+.error-background{
+  background: url(https://wallpaperboat.com/wp-content/uploads/2020/12/03/62926/error-404-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+/* .error-background>.error-link{
+  color: antiquewhite;
+  font-size: larger;
+  text-decoration: none;
+} */
+.error-background>button{
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 2px!important;
+  border: none!important;
+  box-shadow: none;
+  color: azure;
+  font-size: larger;
+
+}

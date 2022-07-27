@@ -2,10 +2,14 @@ import React from 'react'
 import SidebarRow from './_sidebarRow/sidebarRow'
 import './sidebar.css'
 import { Home, SubscriptionsOutlined, WhatshotOutlined, ThumbUpOutlined, History, VideoLibrary, OndemandVideo, WatchLater, ExpandMoreOutlined } from '@mui/icons-material'
+import { Link } from 'react-router-dom'
+
 function sidebar() {
   return (
     <div className='sidebar'>
+      <Link to={`/`}>
     <SidebarRow selected Icon={Home} title='Home'/>
+    </Link>
     <SidebarRow Icon={WhatshotOutlined} title='Trending'/>
     <SidebarRow Icon={SubscriptionsOutlined} title='Subscription'/>
     <hr/>

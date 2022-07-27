@@ -6,6 +6,7 @@ function recomendedVideos() {
     <div className='recomendedVideos'>
       <h2>Recomended Videos</h2>
       <div className='recomendedVideos_videos'>
+        
         <VideoCard 
           title="Shamshera Official Trailer | Ranbir Kapoor | Sanjay Dutt"
           views="223K Views"
