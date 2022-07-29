@@ -2,7 +2,6 @@ import React from 'react'
 import SidebarRow from './_sidebarRow/sidebarRow'
 import './sidebar.css'
 import { Home, SubscriptionsOutlined, WhatshotOutlined, ThumbUpOutlined, History, VideoLibrary, OndemandVideo, WatchLater, ExpandMoreOutlined } from '@mui/icons-material'
-import { Link } from 'react-router-dom'
 
 function sidebar() {
   return (

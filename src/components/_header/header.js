@@ -32,7 +32,7 @@ function header() {
             <AppIcon className='header_icons'/>
             <NotificationsIcon className='header_icons'/>
             <Avatar
-            alt="Suprotive Sarkar" src="https://lh3.googleusercontent.com/ogw/AOh-ky3M1VX4RKq6UCIpFT7503tY4V1fbtoDxZCm8DGUkuo=s32-c-mo"
+            alt="Suprotive Sarkar" src="https://lh3.googleusercontent.com/a-/AFdZucrqVkV_pO6zk1AXz6DTJoyqz5PNHvPj2U9iycJf2qw=s83-c-mo"
             />
         </div>
 

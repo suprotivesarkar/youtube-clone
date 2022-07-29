@@ -1,12 +1,13 @@
 import React from 'react'
 import VideoCard from './_videoCard/videoCard.js'
 import './recomendedVideos.css'
+
 function recomendedVideos() {
   return (
     <div className='recomendedVideos'>
       <h2>Recomended Videos</h2>
       <div className='recomendedVideos_videos'>
-        
+      
         <VideoCard 
           title="Shamshera Official Trailer | Ranbir Kapoor | Sanjay Dutt"
           views="223K Views"
